@@ -10,3 +10,9 @@ for i in range(1, n + 1): # 1부터 99까지는 한수임
             hansu += 1
 
 print(hansu)
+
+# 1022번 절댓값 문제 
+a, b = map(int, input().split())
+
+x = abs(a - b)
+print(x)
