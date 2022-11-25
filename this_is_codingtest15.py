@@ -32,6 +32,6 @@ for _ in range(m):
             print(i)
             check = True
     
-    # 만약 최단 거리가 K인 도시가 없다면, -1 출력
+    # 만약 최단 거리가 K인 도시가 없다면, -1을 출력
     if check == False:
         print(-1)
